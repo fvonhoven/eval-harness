@@ -18,8 +18,8 @@ Temperature is pinned at 0 and chunk size is fixed at 25. Both are worth a row i
 
 Add a judge-free calibration check: rate the same batch twice with the item order reversed and report how many ratings change. Position bias is a known failure of list-rating prompts and the harness cannot see it yet.
 
-Make the matrix a config file instead of a constant in `scripts/_setup.ts`, with the baseline keyed by a hash of the prompt text so that editing a prompt invalidates its own baseline rather than silently comparing against the old wording.
+Make the matrix a config file, with the baseline keyed by a hash of the prompt text so editing a prompt invalidates its own baseline.
 
-Store per-article results across runs, not just metrics. The most useful question after a failed check is "which articles flipped", and today that needs a diff of two `runs/latest.json` files.
+Store per-article results across runs, so "which articles flipped" needs no diff.
 
-Run it in the pipeline's own CI. The harness lives in its own repo so it can be read on its own; the pipeline would import `rank.ts` and `parse.ts` from here rather than keeping a Python copy, or the Python side would call this with a fixture path.
+Run it in the pipeline's own CI, importing `rank.ts` and `parse.ts` from here rather than keeping a copy.
