@@ -1,0 +1,62 @@
+{
+  "recordedAt": "2026-11-20",
+  "mode": "replay",
+  "runs": {
+    "v1/gpt-4o-mini/chunk25": {
+      "n": 40,
+      "parsed": 40,
+      "parseCoverage": 1,
+      "exact": 0.225,
+      "within1": 0.7,
+      "mae": 1.25,
+      "spearman": 0.8103419322807779,
+      "includePrecision": 0.95,
+      "includeRecall": 0.8260869565217391,
+      "includeF1": 0.8837209302325583,
+      "topKOverlap": 0.625,
+      "k": 8
+    },
+    "v2/gpt-4o-mini/chunk25": {
+      "n": 40,
+      "parsed": 40,
+      "parseCoverage": 1,
+      "exact": 0.275,
+      "within1": 0.65,
+      "mae": 1.25,
+      "spearman": 0.7773703269811792,
+      "includePrecision": 0.9444444444444444,
+      "includeRecall": 0.7391304347826086,
+      "includeF1": 0.8292682926829269,
+      "topKOverlap": 0.5,
+      "k": 8
+    },
+    "v1/claude-haiku-4-5/chunk25": {
+      "n": 40,
+      "parsed": 40,
+      "parseCoverage": 1,
+      "exact": 0.475,
+      "within1": 0.85,
+      "mae": 0.725,
+      "spearman": 0.901783149285563,
+      "includePrecision": 0.9523809523809523,
+      "includeRecall": 0.8695652173913043,
+      "includeF1": 0.909090909090909,
+      "topKOverlap": 0.75,
+      "k": 8
+    },
+    "v2/claude-haiku-4-5/chunk25": {
+      "n": 40,
+      "parsed": 40,
+      "parseCoverage": 1,
+      "exact": 0.475,
+      "within1": 0.825,
+      "mae": 0.725,
+      "spearman": 0.9016758830400028,
+      "includePrecision": 1,
+      "includeRecall": 0.9130434782608695,
+      "includeF1": 0.9545454545454545,
+      "topKOverlap": 0.75,
+      "k": 8
+    }
+  }
+}

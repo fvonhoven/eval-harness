@@ -1,0 +1,22 @@
+{
+  "name": "eval-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evals and regression harness for an LLM ranking stage: labeled golden set, parse and ranking metrics, prompt variants, and a baseline check that fails CI on regressions",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test 'src/**/*.test.ts'",
+    "typecheck": "tsc --noEmit",
+    "measure": "node scripts/measure.ts",
+    "check": "node scripts/measure.ts --check",
+    "baseline": "node scripts/baseline.ts",
+    "demo": "node scripts/demo.ts",
+    "fixture": "node scripts/make-fixture.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}

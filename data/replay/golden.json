@@ -1,0 +1,87 @@
+{
+  "synthetic": false,
+  "note": "live responses",
+  "recordedAt": "2026-11-19",
+  "entries": [
+    {
+      "requestHash": "9354a14f7524",
+      "response": {
+        "text": "10  \n10  \n10  \n10  \n7  \n8  \n8  \n9  \n8  \n8  \n6  \n5  \n9  \n4  \n10  \n6  \n9  \n8  \n9  \n1  \n5  \n1  \n1  \n1  \n1  ",
+        "inputTokens": 5340,
+        "outputTokens": 50,
+        "latencyMs": 2207,
+        "stopReason": "stop"
+      }
+    },
+    {
+      "requestHash": "8b312eb79494",
+      "response": {
+        "text": "1  \n5  \n9  \n10  \n2  \n4  \n8  \n6  \n3  \n10  \n9  \n5  \n4  \n6  \n3  ",
+        "inputTokens": 3033,
+        "outputTokens": 30,
+        "latencyMs": 1344,
+        "stopReason": "stop"
+      }
+    },
+    {
+      "requestHash": "f2105d75ff42",
+      "response": {
+        "text": "1. 10  \n2. 9  \n3. 8  \n4. 10  \n5. 6  \n6. 8  \n7. 7  \n8. 9  \n9. 7  \n10. 8  \n11. 6  \n12. 5  \n13. 8  \n14. 5  \n15. 9  \n16. 5  \n17. 8  \n18. 9  \n19. 6  \n20. 2  \n21. 4  \n22. 1  \n23. 5  \n24. 1  \n25. 1  ",
+        "inputTokens": 1393,
+        "outputTokens": 125,
+        "latencyMs": 2110,
+        "stopReason": "stop"
+      }
+    },
+    {
+      "requestHash": "c3c86bb9773c",
+      "response": {
+        "text": "1. 3  \n2. 5  \n3. 9  \n4. 8  \n5. 4  \n6. 5  \n7. 9  \n8. 6  \n9. 5  \n10. 10  \n11. 9  \n12. 6  \n13. 5  \n14. 6  \n15. 4  ",
+        "inputTokens": 716,
+        "outputTokens": 75,
+        "latencyMs": 1706,
+        "stopReason": "stop"
+      }
+    },
+    {
+      "requestHash": "924ba7e76f5d",
+      "response": {
+        "text": "9\n9\n9\n9\n6\n9\n7\n8\n7\n8\n8\n6\n8\n6\n9\n6\n8\n8\n7\n1\n4\n1\n3\n2\n1",
+        "inputTokens": 6042,
+        "outputTokens": 53,
+        "latencyMs": 1343,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "39c41c249eb4",
+      "response": {
+        "text": "2\n\n2\n\n3\n\n8\n\n1\n\n2\n\n8\n\n6\n\n2\n\n8\n\n9\n\n5\n\n7\n\n8\n\n4",
+        "inputTokens": 3447,
+        "outputTokens": 33,
+        "latencyMs": 729,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "b6e7b9fc7551",
+      "response": {
+        "text": "1. 9\n2. 9\n3. 9\n4. 9\n5. 7\n6. 9\n7. 7\n8. 8\n9. 7\n10. 8\n11. 8\n12. 7\n13. 8\n14. 6\n15. 9\n16. 5\n17. 8\n18. 8\n19. 7\n20. 2\n21. 5\n22. 1\n23. 3\n24. 2\n25. 1",
+        "inputTokens": 1539,
+        "outputTokens": 128,
+        "latencyMs": 1525,
+        "stopReason": "end_turn"
+      }
+    },
+    {
+      "requestHash": "216ddc20c9a0",
+      "response": {
+        "text": "1. 3\n2. 2\n3. 4\n4. 8\n5. 2\n6. 2\n7. 8\n8. 5\n9. 2\n10. 8\n11. 9\n12. 4\n13. 3\n14. 6\n15. 4",
+        "inputTokens": 802,
+        "outputTokens": 78,
+        "latencyMs": 1110,
+        "stopReason": "end_turn"
+      }
+    }
+  ]
+}
